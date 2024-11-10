@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import shop from "./images/cookieshop.jpeg";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body>
+      <h1 class="header">Cookies & Beyond</h1>
+      <h4 class="header">Where cookies maniacs gether</h4>
+      <img class="image" src={shop} alt="Cookie Shop"></img>
+    </body>
   );
 }
 
