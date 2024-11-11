@@ -1,4 +1,4 @@
-export const product = [
+export const products = [
   {
     name: "Chocolate Chip Cookies",
     image:
