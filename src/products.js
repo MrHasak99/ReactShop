@@ -1,4 +1,16 @@
-export const products = [
+export const product = [
+  {
+    name: "Chocolate Chip Cookies",
+    image:
+      "https://yogaofcooking.co/wp-content/uploads/2020/10/old-fashioned-chocolate-chip-cookies-2.jpg",
+    price: "5 KD",
+  },
+  {
+    name: "Cute Cookies",
+    image:
+      "https://img-global.cpcdn.com/recipes/4859182992850944/1360x964cq70/teddy-bear-cookies-recipe-main-photo.webp",
+    price: "10 KD",
+  },
   {
     name: "Gingerbread Cookies",
     image:
