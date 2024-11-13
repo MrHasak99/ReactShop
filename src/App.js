@@ -1,4 +1,4 @@
-import shop from "./images/cookieshop.jpeg";
+import shop from "./cookieshop.jpeg";
 import "./App.css";
 import ProductList from "./components/ProductList";
 function App() {
